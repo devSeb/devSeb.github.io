@@ -1,0 +1,19 @@
+
+## Init
+
+git clone git@gitlab.com:Globullo/globullo-website.git
+cd globullo-website
+touch README.md
+git add -A
+git commit -m "add README"
+git push -u origin master
+
+## How to install project ?
+
+cd globullo-website
+npm install -i
+npm start ( reference to package.json)
+
+
+//"webpack": "^1.13.1",
+//webpack-dev-server": "^1.10.1",
