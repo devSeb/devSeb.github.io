@@ -32,8 +32,6 @@ class Projects extends Component {
     }
 
     render() {
-        //console.log("element", this.props.element.text);
-        //console.log("$", $('.test'));
 
         var activeNavBar = "Projects";
         return(

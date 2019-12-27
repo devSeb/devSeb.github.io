@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "d3b0344ab70ec394fdcf"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "9d8cf4886bb2dc404739"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -8798,6 +8798,7 @@
 	        _react2.default.createElement(_reactRouter.Route, { path: '/', component: _App2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: '/projects', component: _Projects2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: '/chartjs', component: _ChartJs2.default }),
+	        _react2.default.createElement(_reactRouter.Route, { path: '/projects', component: _Projects2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: '/labs', component: _Labs2.default }),
 	        _react2.default.createElement(_reactRouter.Route, { path: '*', component: _Error2.default })
 	    )
@@ -70938,7 +70939,7 @@
 	var initialState = {
 	
 	    element: {
-	        text: "hello"
+	        text: "tesok"
 	    }
 	};
 	

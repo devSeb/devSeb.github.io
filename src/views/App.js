@@ -33,9 +33,6 @@ class App extends Component {
     }
 
     render() {
-        //console.log("element", this.props.element.text);
-        //console.log("$", $('.test'));
-
         var activeNavBar = "App";
 
         return(
@@ -53,7 +50,8 @@ class App extends Component {
                         <div className="col-sm-2"></div>
 
                         <div className="col-sm-3 news">
-                            <h3><label className="label label-default">My Profile </label></h3>
+
+                            <h3><label className="label label-default"> Profile </label></h3>
                             <br/>
                              <div>
                                  <h3>Web developer</h3>

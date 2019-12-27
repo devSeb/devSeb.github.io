@@ -4,7 +4,7 @@ import * as types from '../constants/ActionTypes';
 const initialState = {
 
     element : {
-        text : "hello"
+        text : "tesok"
     }
 };
 

@@ -32,11 +32,27 @@ class Project extends Component {
         //console.log("$", $('.test'));
 
         //var projects = [];
+        //  inProgress: "In Progress ..."
 
         let imgChartJsApp = require('./img/ChartjsApp.PNG');
         let imgLabsApp = require('./img/imgLabs.PNG');
         var projects = [
-
+            {   icon: "",
+                title: "Css3 module",
+                desc: "sample source code for css",
+                techno: [ "Css 3", "FlexBox"],
+                link: "/css-module",
+                source: null,
+                img: null
+            } ,
+            {   icon: "",
+                title: "Discover mithril.js",
+                desc: "sample small source with mithril.js",
+                techno: [ "Es6", "webpack", "mithril.js"],
+                link: null,
+                source: "https://github.com/devSeb/mithril.js-demo",
+                img: null
+            } ,
             {   icon: "",
                 title: "Web App with Reactjs, Redux with Unit Test ( Enzyme )",
                 desc: "Demo of a web application with unit test.",
@@ -52,7 +68,6 @@ class Project extends Component {
                 link: "/labs",
                 source: "https://github.com/devSeb/devSeb.github.io/tree/master/src/sources/LabsJs",
                 img: imgLabsApp,
-                inProgress: "In Progress ..."
             } ,
             {   icon: "fa fa-android",
                 title: "React-native Examples ",
@@ -88,7 +103,6 @@ class Project extends Component {
                                         <h3> {item.title} </h3>
                                         <ul className="list-inline">
                                             { item.techno && item.techno.map(function (itemTechno, indexTechno){
-                                                //console.log("tech", itemTechno, indexTechno);
                                                 return (
                                                     <li key={indexTechno}>
                                                         {itemTechno &&
